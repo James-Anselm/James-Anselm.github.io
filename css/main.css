@@ -1,0 +1,59 @@
+body {
+	background-color: rgb(165, 134, 134);
+	text-align:center;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-size: 20px;
+	margin: 10px 0;
+}
+
+.description > div {
+	display: inline-block;
+	margin: 0 20px 5px 20px;
+	font-size: 14px;
+}
+
+.description > div:first-child {
+
+}
+
+.social-icon {
+	background-size:100%;
+	min-width:128px;
+	min-height:128px;
+	display:inline-block;
+	margin: 5px;
+}
+
+.facebook {
+	background-image: url("../img/facebook-128.png");
+}
+
+.linkedin {
+	background-image: url("../img/linkedin-128.png");
+}
+
+.twitter {
+	background-image: url("../img/twitter-128.png");
+}
+
+.email {
+	background-image: url("../img/email-128.png");
+}
+
+.github {
+	background-image: url("../img/github-128.png");
+}
+
+.icon-acknowledgment {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	text-decoration: none;
+	color:inherit;
+	font-size: 10px;
+	margin: 0 5px 5px 0;
+}
