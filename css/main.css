@@ -6,13 +6,15 @@ body {
 }
 
 h1 {
-	font-size: 20px;
+	font-size: 24px;
 	margin: 10px 0;
 }
 
 .description > div {
-	margin: 0 20px 5px 20px;
 	font-size: 14px;
+	width:150px;
+	padding-bottom:5px;
+	margin:auto;
 }
 
 .social-icon {
@@ -21,6 +23,14 @@ h1 {
 	width:19%;
 	height:0;
 	padding-bottom:19%;
+	transition: all .1s linear;
+}
+
+.social-icon:hover {
+	-webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+   	-o-transform: translateY(-5px);
+   	transform: translateY(-5px);
 }
 
 .facebook {
@@ -53,7 +63,7 @@ h1 {
 	margin: 0 5px 5px 0;
 }
 
-@media (min-height: 400px) and (max-width: 500px) {
+@media (min-height: 400px) and (max-width: 499px) {
 	.social-icon {
 		width:30%;
 		padding-bottom:30%;
@@ -63,6 +73,7 @@ h1 {
 @media (min-width: 500px){
 	.description > div {
 		display:inline-block;
+		padding-bottom:0;
 	}
 }
 
